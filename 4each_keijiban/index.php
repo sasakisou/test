@@ -21,12 +21,12 @@
       <div class="left">
         <h1>プログラミングに役立つ掲示板</h1>
       <div class="form1">
-        <h2>入力フォーム</h2>
-        <form method="post" action="mail_confirm.php">
+        <p>入力フォーム</p>
+        <form method="post" action="insert.php">
         <div>
          <label>ハンドルネーム</label>
          <br>
-         <input type="text" class="text" size="35" name="name">
+         <input type="text" class="text" size="35" name="handlename">
         </div>
         <div>
          <label>タイトル</label>
@@ -36,7 +36,7 @@
         <div>
          <label>コメント</label>
          <br>
-         <textarea cols="35" rows="7" name="comments"></textarea>
+         <textarea cols="130" rows="10" name="comments"></textarea>
         </div>
         <div>
          <input type="submit" class="submit" value="送信する">
