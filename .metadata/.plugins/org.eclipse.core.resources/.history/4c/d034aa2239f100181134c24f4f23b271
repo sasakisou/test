@@ -1,0 +1,55 @@
+package person;
+
+public class Test {
+	public static void main(String[] args){
+		Person taro=new Person();
+		taro.name="山田太郎";
+		taro.age=20;
+		taro.phoneNumber="08012345567";
+		taro.address="新宿";
+		taro.talk();
+
+		Person jirou=new Person();
+		jirou.name="木村次郎";
+		jirou.age=18;
+		jirou.phoneNumber="07045687372";
+		jirou.address="神奈川";
+		jirou.walk();
+
+		Person hanako=new Person();
+		hanako.name="鈴木花子";
+		hanako.age=16;
+		hanako.phoneNumber="09018764673";
+		hanako.address="東京";
+		hanako.run();
+
+		Person sou=new Person();
+		sou.name="佐々木壮";
+		sou.age=22;
+		sou.phoneNumber="07014651891";
+		sou.address="若松町";
+		sou.walk();
+
+		System.out.println(taro.name);
+		System.out.println(taro.age);
+		System.out.println(taro.phoneNumber);
+		System.out.println(taro.address);
+
+		System.out.println(jirou.name);
+		System.out.println(jirou.age);
+		System.out.println(jirou.phoneNumber);
+		System.out.println(jirou.address);
+
+		System.out.println(hanako.name);
+		System.out.println(hanako.age);
+		System.out.println(hanako.phoneNumber);
+		System.out.println(hanako.address);
+
+		System.out.println(sou.name);
+		System.out.println(sou.age);
+		System.out.println(sou.phoneNumber);
+		System.out.println(sou.address);
+
+	}
+
+}
