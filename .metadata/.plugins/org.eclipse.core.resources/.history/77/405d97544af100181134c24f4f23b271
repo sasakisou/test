@@ -1,0 +1,5 @@
+package Iphone;
+
+public interface Iphone2 {
+
+}

@@ -1,0 +1,8 @@
+package Iphone;
+
+public interface Iphone2 {
+	public interface Mp3Player{
+
+	}
+
+}
