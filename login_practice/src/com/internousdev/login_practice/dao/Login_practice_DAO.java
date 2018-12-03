@@ -2,11 +2,14 @@ package com.internousdev.login_practice.dao;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.sql.SQLException;DBConnector;
+import java.sql.SQLException;
+
+import com.internousdev.login_practice.dto.Login_practice_DTO;
+import com.internousdev.login_practice.util.DBConnector;
 
 public class Login_practice_DAO {
 	public Login_practice_DTO select(String name,String password)throws SQLException{
-		Loogin_practice_DTO dto=new Login_practice_DTO();
+		Login_practice_DTO dto=new Login_practice_DTO();
 		DBConnector db=new DBConnector();
 		Connection con=db.getConnection();
 		String sql="select*from user where user_name=? and password=?";

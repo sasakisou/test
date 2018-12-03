@@ -21,7 +21,7 @@ public class Login_practice_DTO {
 		this.name=name;
 	}
 
-	public String password(){
+	public String getPassword(){
 		return password;
 	}
 

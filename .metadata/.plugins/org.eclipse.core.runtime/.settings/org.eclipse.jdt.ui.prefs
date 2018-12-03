@@ -10,6 +10,8 @@ editor_save_participant_org.eclipse.jdt.ui.postsavelistener.cleanup=true
 fontPropagated=true
 formatter_profile=_Pleiades [\u30AB\u30B9\u30BF\u30E0]
 formatter_settings_version=12
+hoverModifierMasks=org.eclipse.jdt.ui.BestMatchHover;0;org.eclipse.jdt.internal.debug.ui.JavaDebugHover;0;org.eclipse.jdt.ui.ProblemHover;0;org.eclipse.jdt.ui.NLSStringHover;327680;org.eclipse.jdt.ui.JavadocHover;393216;org.eclipse.jdt.ui.AnnotationHover;0;org.eclipse.jdt.ui.JavaSourceHover;131072;
+hoverModifiers=org.eclipse.jdt.ui.BestMatchHover;0;org.eclipse.jdt.internal.debug.ui.JavaDebugHover;\!0;org.eclipse.jdt.ui.ProblemHover;\!0;org.eclipse.jdt.ui.NLSStringHover;Ctrl+Alt;org.eclipse.jdt.ui.JavadocHover;Ctrl+\u30B7\u30D5\u30C8;org.eclipse.jdt.ui.AnnotationHover;\!0;org.eclipse.jdt.ui.JavaSourceHover;\u30B7\u30D5\u30C8;
 org.eclipse.jdt.internal.ui.navigator.layout=2
 org.eclipse.jdt.ui.editor.tab.width=
 org.eclipse.jdt.ui.exception.name=e
@@ -24,7 +26,9 @@ org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UT
 org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="true" context\="java" deleted\="false" description\="SLF4J \u30ED\u30B0\u5BA3\u8A00" enabled\="true" name\="log">${\:import(org.slf4j.Logger, org.slf4j.LoggerFactory)}/** \u30ED\u30AC\u30FC */&\#13;\r\nprivate static final Logger log \= LoggerFactory.getLogger(${enclosing_type}.class);</template></templates>
 org.eclipse.jdt.ui.text.templates_migrated=true
 org.eclipse.jdt.ui.typefilter.enabled=java.awt.List;
+org.eclipse.jdt.ui.visibility.order=B,V,R,D,
 org.eclipse.jface.textfont=1|\uFF2D\uFF33 \u30B4\u30B7\u30C3\u30AF|9.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|\uFF2D\uFF33 \u30B4\u30B7\u30C3\u30AF;
+outlinesortoption=T,SF,SI,SM,F,I,C,M,
 proposalOrderMigrated=true
 semanticHighlighting.localVariable.color=255,0,255
 semanticHighlighting.localVariable.enabled=true
