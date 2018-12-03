@@ -1,2 +1,10 @@
 2018-11-30 11:14:17,926 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
 2018-11-30 17:22:00,242 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
+2018-12-03 10:20:18,723 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
+2018-12-03 12:51:34,260 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @9997478ms
+2018-12-03 12:51:34,711 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2018-12-03 12:51:34,839 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@180c96e2{/wse,null,AVAILABLE}
+2018-12-03 12:51:34,908 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@5871851e{HTTP/1.1}{0.0.0.0:54064}
+2018-12-03 12:51:34,909 [main] INFO  org.eclipse.jetty.server.Server - Started @9998128ms
+2018-12-03 12:57:53,899 [Framework stop] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@5871851e{HTTP/1.1}{0.0.0.0:0}
+2018-12-03 12:57:53,993 [Framework stop] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@180c96e2{/wse,null,UNAVAILABLE}
