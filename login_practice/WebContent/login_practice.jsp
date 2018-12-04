@@ -7,7 +7,7 @@
 <title>ログイン画面</title>
 </head>
 <body>
-	<s:form action="Login_practice_Action">
+	<s:form action="LoginAction">
 		<s:textfield name="name"/>
 		<s:password name="password"/>
 		<s:submit value="ログイン"/>
