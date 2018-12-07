@@ -7,7 +7,7 @@
 <title>お問い合わせフォーム</title>
 </head>
 <body>
-<s:form method="post" action="InquiryCompleteActon">
+<s:form method="post" action="InquiryCompleteAction">
 	名前:<input type="text" name="name" />
 	お問い合わせの種類:<br>
 	<select name="qtype">
