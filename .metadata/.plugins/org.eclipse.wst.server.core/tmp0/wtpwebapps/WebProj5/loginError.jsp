@@ -15,6 +15,7 @@
 <s:if test='(#session.loginDTOList.get(0).username)=="該当なし"'>
 該当者はいませんでした。
 </s:if>
+
 <br>
 <table>
 <tbody>
