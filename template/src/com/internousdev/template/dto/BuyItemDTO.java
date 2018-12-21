@@ -18,7 +18,7 @@ public class BuyItemDTO {
 	}
 
 	public void setItemPrice(String itermPrice){
-		this.itemPrice=itemPrice;
+		this.itemPrice=itermPrice;
 	}
 
 	public int getId(){

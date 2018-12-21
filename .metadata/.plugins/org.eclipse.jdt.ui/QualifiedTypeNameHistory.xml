@@ -5,4 +5,5 @@
 <fullyQualifiedTypeName name="java.sql.SQLException"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj4.dao.LoginDAO"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.internousdev.template.dto.BuyItemDTO"/>
 </qualifiedTypeNameHistroy>
