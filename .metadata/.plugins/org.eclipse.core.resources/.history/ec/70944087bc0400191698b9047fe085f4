@@ -1,0 +1,26 @@
+package com.internousdev.template.dto;
+
+public class BuyItemDTO {
+	private int id;
+	private String itemName;
+	private String itemPrice;
+
+	public String getItemName(){
+		return itemName;
+	}
+
+	public void SetItemName(String itemName){
+		this.itemName=itemName;
+	}
+
+	public String getItemPrice(){
+		return itemPrice;
+	}
+
+	public void setItemPrice(String ItermPrice){
+		this.itemPrice=itemPrice;
+	}
+
+
+
+}
